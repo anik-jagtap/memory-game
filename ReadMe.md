@@ -8,3 +8,7 @@ Run client application:
 cd ./client
 npm start
 go to http://localhost:3000
+
+
+Note:
+1. .env file should never be commited, i'm adding it as i cannot maintain it on my local computer.
