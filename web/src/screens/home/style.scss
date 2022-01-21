@@ -1,0 +1,29 @@
+.container {
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    h1, h2 {
+        text-align: center;
+        margin-top: 7%;
+    }
+    .level-box {
+        display: flex;
+        flex-direction: column;
+        .button-wrapper {
+            margin: auto;
+            .level-button {
+                border: 1px solid;
+                padding: 3px;
+                border-radius: 5px;
+                // margin: auto;
+                margin: 10px 0px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+p {
+    margin: 0;
+}

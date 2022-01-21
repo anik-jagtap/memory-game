@@ -1,0 +1,22 @@
+.frontCard {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.card-elem {
+    height: 100px;
+    // width: 100px;
+    // background-color:chartreuse;
+    .closed-card {
+        height: inherit;
+    }
+    .card-content {
+        position: absolute;
+        top: 40%;
+        left: 42%;
+    }
+    .disable {
+        cursor: none;
+        pointer-events: none;
+    }
+}

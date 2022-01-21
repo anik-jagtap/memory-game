@@ -1,0 +1,43 @@
+.card-table {
+    height: 80%;
+    width: 80%;
+    // background: aqua;
+    margin: auto;
+    overflow: scroll;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    // position: relative;
+    .score-timer{
+        padding: 10px 5px;
+        display: flex;
+        position: relative;
+        border-bottom: 1px solid;
+        align-items: center;
+        // .timer {
+
+        // }
+        .ratings {
+            margin-left: 20px;
+            color: green;
+            font-weight: bold;
+        }
+        .score {
+            right: 5px;
+            position: absolute;
+        }
+    }
+    .row {
+        display: inline-block;
+        .card-element {
+            margin: 10px 20px;
+            // position: relative;
+            // margin: auto;
+            height: 100px;
+            width: 66px;
+            // background-color: chartreuse;
+            cursor: pointer;
+            display: inline-block;
+        }
+    }
+}
